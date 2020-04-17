@@ -1,0 +1,22 @@
+<div>
+    <button (click)="IniciarPausar()" class="iniciar">{{ IniciarDetener }}</button>
+    <div class="cronometro">    
+        <div class="cronometroespacios">{{ horas }}</div>:<div class="cronometroespacios">{{ minutos }}</div>:<div class="cronometroespacios">{{ segundos }}</div>:<div class="cronometroespacios">{{ milisegundos }}</div>
+    </div>
+    <button (click)="marcar()" class="iniciar">{{ MarcarReiniciar }}</button>
+</div>
+<div style="display: inline-flex;
+justify-content: center;
+align-items: center;">
+    <table>
+        <tbody>
+            <tr *ngFor="let lista of datos">            
+                <td class="fila">{{ lista.index }}</td>
+                <td><input type="text" class="texto"></td>
+                <td>{{ lista.cronometro }}</td>            
+                <td>{{todayDate | date:'shortDate'}}</td>
+                <td>{{todayDate | date:'mediumTime'}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

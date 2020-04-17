@@ -1,0 +1,47 @@
+.cronometro {
+    width: 300px;  
+    height: 300px;
+    font-size: 30pt;
+    color:#0f0;
+    background-color:#222;
+    border-radius: 300px;
+    border: #555 solid 1px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;    
+    letter-spacing: 8px;
+    font-family: DS-Digital, Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .cronometroespacios{
+    text-align: center;
+    width: 50px;
+  }
+  .iniciar{
+    width: 150px;  
+    height: 3rem;
+    font-size: 15pt;
+    color:#333;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .texto{
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  table{    
+    width: 640px;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  table tr{
+    height: 30px;
+    background-color: #faf0e4;    
+  }
+  table tr td{
+    border-radius: 5px;
+    margin: 5px;
+  }
+  table .fila{
+    background-color: #dfdfdf;
+    width: 30px;
+  }
